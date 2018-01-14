@@ -1,0 +1,9 @@
+[package]
+name = "vanity-generator"
+version = "0.1.0"
+authors = ["Andrey Putilin <regresscheck@gmail.com>"]
+
+[dependencies]
+rand = "=0.3"
+secp256k1 = { version="0.8.1", features=["rand"]}
+tiny-keccak = "1.3"
